@@ -43,9 +43,9 @@
 
 <body>
     <!-- header section  -->
-    <header class="container mt-14 mx-auto">
+    <header class="container my-14 mx-auto">
         <!-- nav section  -->
-        <nav class="flex items-center justify-between lg:flex-row md:flex-row flex-col">
+        <nav class="flex items-center justify-between lg:flex-row md:flex-row flex-col mb-9">
 
             <!-- image section  -->
             <div>
@@ -59,8 +59,24 @@
                 <a class="text-gray-500 font-family-poppins" href="#">Blog <i class="fa-solid fa-chevron-right"></i> </a>
                 <a class="text-gray-500 font-family-poppins" href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
             </div>
-            <button class="bg-regular-color rounded-lg px-4 py-6 text-white font-family-poppins">Free Consultation</button>
+            <button class="bg-regular-color rounded-lg px-4 py-3 text-white font-family-poppins">Free Consultation</button>
         </nav>
+
+        <!-- banner section  -->
+        <div class="relative">
+            <img class="w-full rounded-lg" src="images/banner.png" alt="">
+            <div class="overlay">
+
+            </div>
+            <div class="absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-white text-center">
+                <h1 class="font-family-eb lg:text-6xl md:text-5xl text-4xl">We Provide Effective <br> Legal Solutions</h1>
+                <p class="font-family-poppins lg:mt-6 mt-2 mb-3 lg:mb-8 lg:text-[16px] md:text-[15px] text-[13px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="flex   gap-5">
+                    <input class="lg:p-5 px-3 rounded-lg outline-none border-none" type="text" placeholder="Search your sevices">
+                    <button class="bg-regular-color px-7 py-4 rounded-lg text-white font-family-poppins font-bold">Search</button>
+                </div>
+            </div>
+        </div>
     </header>
 </body>
 
