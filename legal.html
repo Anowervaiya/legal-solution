@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Legal Justice</title>
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins&display=swap"
+        rel="stylesheet">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/170d33b24e.js" crossorigin="anonymous"></script>
+    <!-- tailwind and daisyUi link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+        .font-family-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .font-family-eb {
+            font-family: 'EB Garamond', serif;
+        }
+
+  
+    </style>
+          <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                    'regular-color': '#B68C5A',
+                  }
+                }
+              }
+            }
+          </script>
 </head>
+
 <body>
-    <h1>Anower</h1>
+    <!-- header section  -->
+    <header class="container mt-14 mx-auto">
+        <!-- nav section  -->
+        <nav class="flex items-center justify-between lg:flex-row md:flex-row flex-col">
+
+            <!-- image section  -->
+            <div>
+                <img src="images/logo2.png" alt="">
+            </div>
+            <!-- menu bar section  -->
+            <div class="flex lg:gap-6 md:gap-3 gap-5 my-6 lg:mx-3 md:mx-1 items-center lg:flex-row md:flex-row flex-col">
+                <a class="text-gray-500 font-family-poppins" href="#">Home</a>
+                <a class="text-gray-500 font-family-poppins" href="#">Service <i class="fa-solid fa-chevron-right"></i></a>
+                <a class="text-gray-500 font-family-poppins" href="#">Cases <i class="fa-solid fa-chevron-right"></i> </a>
+                <a class="text-gray-500 font-family-poppins" href="#">Blog <i class="fa-solid fa-chevron-right"></i> </a>
+                <a class="text-gray-500 font-family-poppins" href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <button class="bg-regular-color rounded-lg px-4 py-6 text-white font-family-poppins">Free Consultation</button>
+        </nav>
+    </header>
 </body>
+
 </html>
